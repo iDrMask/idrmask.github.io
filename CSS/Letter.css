@@ -1,0 +1,29 @@
+body {
+    background-image: url("Images/letterback.jpg");
+    /*background-color: ghostwhite;*/
+    /*font: 1.2rem "Fira Sans", sans-serif;*/
+    font-family: Papyrus, fantasy; 
+    font-size: 24px;
+    font-weight: 700; 
+    line-height: 26.4px;
+    background-size: 1000px;
+    width: 1600px;
+    height: 1000px;
+    margin-bottom:100px;
+  }
+  
+  h1 {
+    color: black;
+    margin-left: 50px;
+    margin-top:50px;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  p {
+    color:black;
+    margin-left: 50px;
+    font-size:35px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    margin-bottom:100px;
+  }
