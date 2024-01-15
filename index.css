@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 50px;
+    font-size: 75px;
+    text-emphasis-color:(255,255,255,75);
+}
