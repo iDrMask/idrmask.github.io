@@ -1,0 +1,55 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    place-items: top;
+
+  }
+  
+button{
+    margin-top: 1vh;
+    width: 40vw;
+    height:5vh;
+    border-radius: 20px;
+    border: solid grey 3px;
+    outline: none;
+    background: linear-gradient(135deg, red, blue);
+    font-size:200%;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;;
+
+}
+
+button:hover{
+    opacity: 80%;
+}
+
+.child {
+    margin-top: 5vh;
+    width: 40vw;
+    height: 40vh;
+    background-color: rgb(255,0,0);
+    border-radius: 50px;
+    font-size: 200%;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 5vh;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+
+}
+
+h1{
+    font-size: 5vh;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+
+}
+

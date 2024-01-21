@@ -11,3 +11,8 @@ h1{
     font-size: 75px;
     text-emphasis-color:(255,255,255,75);
 }
+
+a{
+    font-size:50px;
+    font-family: 'Open Sans', sans-serif;
+}
