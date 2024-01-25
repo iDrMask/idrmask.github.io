@@ -1,18 +1,44 @@
-body {
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+body{
+    box-sizing: border-box;
+    background: #393053;
+    padding: 0px;
+    margin: 0px;
 }
 
-h1{
-    font-family: 'Ubuntu', sans-serif;
-    padding-left: 50px;
-    font-size: 75px;
-    text-emphasis-color:(255,255,255,75);
+.header{
+    font-family: "Montserrat", sans-serif;
+    font-size: 5vh;
+    background-color: #18122B;
+    display: flex;
+    color: #edf0f1;
+    padding: 3vw 3%;
+    align-items:start;
 }
 
-a{
-    font-size:50px;
-    font-family: 'Open Sans', sans-serif;
+.header:hover{
+    box-shadow: 2px 5px 10px#635985;
+    transition-duration: 1s;
+}
+
+.header span{
+    padding-left: 2vw;
+}
+
+.list{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    background-color: #443C68;
+    width: 20vw;
+    height: 20vh;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 30px;
+}
+
+
+.list a{
+    color: #edf0f1;
+    text-decoration: none;
 }
