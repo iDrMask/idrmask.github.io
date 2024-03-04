@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    background: #43766C;
+    color: #F8FAE5;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+}
+
+progress{
+    height: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: white;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #76453B;
+  }
+  progress::-webkit-progress-value {
+    background-color: #B19470;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 3px #76453B;
+  }
